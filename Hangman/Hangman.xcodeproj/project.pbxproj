@@ -255,7 +255,9 @@
 				TargetAttributes = {
 					ECC22F3E1C89177600749E58 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = E2U5ZHR97M;
 						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
 					};
 					ECC22F521C89177600749E58 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -474,9 +476,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = E2U5ZHR97M;
 				INFOPLIST_FILE = Hangman/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.shawndsouza.Hangman;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ziwei-s-hangman";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -486,9 +490,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = E2U5ZHR97M;
 				INFOPLIST_FILE = Hangman/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.shawndsouza.Hangman;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ziwei-s-hangman";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
